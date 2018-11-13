@@ -1,0 +1,22 @@
+{
+  "name": "mr-text-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/speech": "^2.1.1",
+    "draft-js": "^0.10.5",
+    "history": "^4.7.2",
+    "http2": "^3.3.7",
+    "node-record-lpcm16": "^0.3.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router": "^3.2.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
