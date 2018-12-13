@@ -6,21 +6,21 @@ export default class Contact extends React.Component {
 
 		return(
 
-		  <section className="contact section-wrapper" id="contact">
+		  <section className="contact section-wrapper purple" id="contact">
 		    <div className="container">
 		      <div className="row">
 		              <div className="col-md-offset-1 col-md-4 contact-item col-sm-6 col-xs-12 col-centered">
 		                  <i className="ion-ios-telephone"></i>
-		                  <h3>Phone</h3>
-		                  <p className="contact">
+		                  <h3 className="fontwhite">Phone</h3>
+		                  <p className="contact fontwhite">
 		                      Local: 800-000-0000<br />
 		                      Mobile: 900-000-0000
 		                  </p>
 		              </div>
 		              <div className="col-md-offset-2 col-md-4 contact-item col-sm-6 col-xs-12 col-centered">
 		                  <i className="ion-ios-email"></i>
-		                  <h3>Email Address</h3>
-		                  <p className="contact">
+		                  <h3 className="fontwhite">Email Address</h3>
+		                  <p className="contact fontwhite">
 		                      <a href="mailto:mrtextanalyzer@gmail.com">mrtextanalyzer@gmail.com</a> <br />                     
 		                  </p>
 		              </div>

@@ -7,6 +7,7 @@
     "draft-js": "^0.10.5",
     "history": "^4.7.2",
     "http2": "^3.3.7",
+    "lesshat": "^4.1.0",
     "node-record-lpcm16": "^0.3.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -18,5 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.1"
   }
 }
